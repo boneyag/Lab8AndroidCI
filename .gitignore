@@ -9,6 +9,7 @@
 /.idea/assetWizardSettings.xml
 /.idea
 .DS_Store
+/docs
 /build
 /captures
 .externalNativeBuild
