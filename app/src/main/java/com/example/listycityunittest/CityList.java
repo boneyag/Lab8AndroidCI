@@ -35,4 +35,17 @@ public class CityList {
         Collections.sort(list);
         return list;
     }
+
+    /**
+     * Delete a city for a given position of the ArrayList
+     * @param position integer
+     */
+    public void deleteCity(int position){
+//        if ((position > -1) && (position < cities.size())){
+//            cities.remove(position);
+//        }
+//        else{
+//            throw new IllegalArgumentException("Invalid array index - must be between zero and size-1 ");
+//        }
+    }
 }
