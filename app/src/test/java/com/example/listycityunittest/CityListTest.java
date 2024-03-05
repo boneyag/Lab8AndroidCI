@@ -24,4 +24,13 @@ public class CityListTest {
         cityList.addCity(new City("Saskatoon", "SK"));
         assertEquals(2, cityList.getCities().size());
     }
+
+    @Test
+    public void testDeleteCity(){
+        CityList cityList = mockCityList();
+        assertEquals(1, cityList.getCities().size());
+
+        cityList.deleteCity(0);
+        assertEquals(0, cityList.getCities().size());
+    }
 }
