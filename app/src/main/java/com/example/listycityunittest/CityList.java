@@ -41,11 +41,11 @@ public class CityList {
      * @param position integer
      */
     public void deleteCity(int position){
-//        if ((position > -1) && (position < cities.size())){
-//            cities.remove(position);
-//        }
-//        else{
-//            throw new IllegalArgumentException("Invalid array index - must be between zero and size-1 ");
-//        }
+        if ((position > -1) && (position < cities.size())){
+            cities.remove(position);
+        }
+        else{
+            throw new IllegalArgumentException("Invalid array index - must be between zero and size-1 ");
+        }
     }
 }
